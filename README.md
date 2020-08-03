@@ -1,3 +1,8 @@
-<h1>Wie mache ich einen sich nach einem Zeitraum wechselnden Status eine Discord.js Bots?</h1>
+# Wie mache ich einen sich nach einem Zeitraum wechselnden Status eine Discord.js Bots?
 
-<p>Als erstes machen wir den Standardcode. Also so:</p>
+> Als erstes machen wir den Standardcode. Also so:
+
+```javascript
+  const Discord = require("discord.js"); // Wir holen das Paket “discord.js”
+  const client = new Discord.Client();
+```
