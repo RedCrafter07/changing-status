@@ -42,3 +42,5 @@ client.on("ready", () =>  {
 })
 
 ```
+
+Falls du weitere Fragen hast, melde dich in der "Issues" - Abteilung, ich probiere schnellstmöglich zu antworten. 
