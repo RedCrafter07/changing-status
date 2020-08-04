@@ -30,9 +30,10 @@ client.on("ready", () =>  {
       type: "WATCHING"//schaut (der name oben) zu
     },
     {
-      name: "live"
+      name: "live",
       type: "STREAMING"//Streamt (der name oben),
-      url: "https://twitch.tv/redcrafter07_live"//angeben, falls darunter ein Knopf sein soll, der zur URL führt ; nur bei dem Streamt-Status verfügbar (!)      
+      url: "https://twitch.tv/redcrafter07_live"//angeben, falls darunter ein Knopf sein soll, der zur URL führt ; nur bei dem Streamt-Status verfügbar (!)   
+    }   
   ];
   
   setInterval(function() {
